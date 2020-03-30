@@ -49,4 +49,4 @@ quantize2= pow(2,q2)
 
 plt.step(t,np.round(s(A,f,fi,t)*quantize2+quantize2/2))
 function(t,np.round(s(A,f,fi,t)*quantize2+quantize2/2),'g*')
-plt.show()   
+
