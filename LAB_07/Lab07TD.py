@@ -6,6 +6,7 @@ import math as math
 #nr 45123
 # gr 20C Niestacjonarne 1st
 
+#Do opracowania mieliśmy tylko dekoder i sygnał Manchaster 
 
 ##nr indeksu 4 5 1 2 3
 ##oznaczenia E D C B A
