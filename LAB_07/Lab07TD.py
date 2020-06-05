@@ -19,7 +19,7 @@ c=1
 def STB(slowo):
     binaryStream = []
     for i in slowo:
-        bits = bin(ord(i))[2:]
+        bits = bin(ord(i))[2:]  #bit dwójkowy
         bits = '0000000'[len(bits):] + bits
         binaryStream.extend([int(b) for b in bits])
     return binaryStream
